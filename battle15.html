@@ -1,57 +1,59 @@
 <body>
-    <div id="container"></div>
-	<div id="line-1"></div>
-  	<div id="line-2"></div>
-    <div id="r-box-1"></div>
-    <div id="r-box-2"></div>
+  <div id="container"></div>
+<div id="line-1"></div>
+  <div id="line-2"></div>
+  <div id="r-box-1"></div>
+  <div id="r-box-2"></div>
 </body>
 <style> 
-  body {
+body {
+  background: #F7F3DA;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container-1 {
+    height: 45px;
+    position: relative;
+}
+
+#line-1 {
+  width: 56%;
+  height: 65px;
+  background: #D25B70;
+  position: absolute;
+  top: 36.5%;
+  border-radius: 0px 15px 0px 0px;
+}
+
+  #line-2 {
+  width: 48%;
+  height: 43px;
+  background: #D25B70;
+  position: absolute;
+  top: 49%;
+  right: 0;  
+  border-radius: 0px 0px 0px 15px
+}
+
+#r-box-1 {
+    height:150px;
+    width: 179px;
     background: #F7F3DA;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #container-1 {
-      height: 45px;
-      position: relative;
-  }
-  
-  #line-1 {
-    width: 67%;
-    height: 65px;
-    background: #D25B70;
-    position: absolute;
-    top: 36.5%;
-  }
-  
-    #line-2 {
-    width: 56%;
-    height: 65px;
-    background: #D25B70;
-    position: absolute;
-    top: 49%;
-    right: 0;    
-  }
-
-  #r-box-1 {
-      height:160px;
-      width: 180px;
-      background: antiquewhite;
-      position: fixed;
-      right: 0;
-      top: 0;  
-  }
-  
-  #r-box-2 {
-    height: 160px;
-    width: 180px;
-    background: aliceblue;
     position: fixed;
-    bottom: 0;
-	left: 0;
-  }
-</style>
+    right: 0;
+    top: 0;  
+    border-radius: 0px 0px 0px 14px;
+}
 
-<!-- https://css-tricks.com/reset-all-margins-padding/ -->
+#r-box-2 {
+  height: 150px;
+  width: 212px;
+  background: #F7F3DA;
+  position: fixed;
+  bottom: 0;
+left: 0;
+  border-radius: 0px 21px 0px 0px;
+}
+</style>
